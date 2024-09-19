@@ -57,6 +57,28 @@ button {
   padding: 0 10px;
 }
 
+.section-main {
+  padding-bottom: 140px;
+}
+
+.section-title {
+  font: 600 18px/22px "Urbanist", Arial, Helvetica, sans-serif;
+  color: #c99e71;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  font: 48px/62px "Righteous", cursive;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.section__text {
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
 /* Header */
 
 #header-section {
@@ -172,12 +194,15 @@ button {
 
 /* Features  */
 
-.features-section-main {
-  margin-top: 99px;
+.features {
+  padding-top: 140px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 30px;
+  gap: 36px;
+}
+
+.features-section-item {
+  font: 24px/30px "Righteous", cursive;
 }
 
 .features__item_dark {
@@ -197,15 +222,12 @@ button {
 }
 
 .features-img {
-  display: flex;
+  display: block;
   margin-top: 24px;
+  width: 366px;
 }
 
 /* History */
-
-#history-section {
-  padding-top: 140px;
-}
 
 .history-wrap {
   display: grid;
@@ -243,4 +265,43 @@ button {
 }
 .history__subtitle {
   margin-bottom: 36px;
+}
+
+/* Popular Product */
+
+.popular-coffe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+
+/* Coffee Machine */
+
+.discover-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 85px 80px;
+  background-color: #1c1814;
+}
+
+.discover-img {
+  display: block;
+  margin: 0 auto;
+  max-height: 359px;
+}
+
+.discover {
+  max-width: 535px;
+}
+.discover__title {
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+.discover__link {
+  display: block;
+  width: 215px;
+  margin-top: 36px;
 }
