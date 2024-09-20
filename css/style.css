@@ -79,6 +79,17 @@ button {
   text-transform: capitalize;
 }
 
+input {
+  display: block;
+  padding: 16px 20px;
+  border: none;
+  outline: none;
+  color: inherit;
+  font: 600 18px/32px "Urbanist", Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  background-color: #14110e;
+}
+
 /* Header */
 
 #header-section {
@@ -448,4 +459,86 @@ button {
 
 .testimonial-btn_active:hover {
   background-color: #bd864b;
+}
+
+/* Reservation */
+
+.reservation-wrap {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-map {
+  width: 50%;
+}
+
+.reservation-img {
+  width: 585px;
+  height: 652px;
+}
+
+.reservation {
+  width: 50%;
+  height: 652px;
+  padding: 72px 48px;
+  background-color: #1c1814;
+}
+
+.reservation__input {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.reservation__btn {
+  width: 205px;
+  margin: 56px auto 0;
+}
+
+/* News */
+
+.news-wrap,
+.news-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+
+.news__author_dark {
+  color: #c99e71;
+}
+
+.news__img {
+  display: block;
+}
+
+.news-description {
+  padding: 20px 24px 30px 24px;
+  background-color: #1c1814;
+}
+
+.news-info {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.news__author_dark {
+  color: #c99e71;
+}
+
+.news__text {
+  margin-bottom: 32px;
+  font: 20px/30px "Righteous", cursive;
+}
+
+.news__link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #c99e71;
+}
+
+.news__link:hover {
+  color: #bd864b;
 }
